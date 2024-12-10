@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+.game{
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    gap:20px;
+    
+}
+
+.bet-item img{
+    width: 100px;
+    height: 100px;
+}
+.main-game{
+    width:100%;
+    display:flex;
+    gap: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet-item {
+    border: 1px solid darkgray;
+    display:flex;
+    padding:10px;
+      
+}
+
+    
+.bet-item:hover {
+    transition:0.5s;
+    transform:scale(1.2);
+    
+}
+.bet-score{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.img-result img{
+        width: 100px;
+        height: 100px;
+}
+.img-result{
+    border: 1px solid black;
+}
+.result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.cannotuse {
+    pointer-events: none;
+    opacity: 50%;
+}
+
+.quay{
+    border: 1px;
+    background-color: rgb(62, 209, 138);
+    padding:15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.datlai{
+    
+    border: 1px;
+    background-color: rgb(62, 209, 138);
+    padding:15px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.button{
+    display: flex;
+    
+    justify-content: end;
+    padding-right:350px;
+}
+
